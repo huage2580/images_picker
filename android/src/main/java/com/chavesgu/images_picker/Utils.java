@@ -36,7 +36,7 @@ public class Utils {
                 .isOriginalImageControl(false)
                 .isMaxSelectEnabledMask(true)
 //                .cameraFileName(UUID.randomUUID().toString())
-//                .renameCompressFile("images_picker_compress")
+                .renameCompressFile(System.currentTimeMillis() +".jpg")
 //                .renameCropFileName("images_picker_crop")
         ;
         if (quality > 0) {
